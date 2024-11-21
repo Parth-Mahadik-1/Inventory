@@ -1,0 +1,18 @@
+<html>
+<body>
+enter a first number:<input type=number id=n1><br><br>
+enter a second number:<input type=number id=n2><br><br>
+enter a third number:<input type=number id=n3><br><br>
+<input type=submit onClick=add()>
+<p id=p1> </p1>
+<script>
+function add()
+{
+var a=parseInt(document.getElementById("n1").value);
+var b=parseInt(document.getElementById("n2").value);
+var c=parseInt(document.getElementById("n3").value);
+document.getElementById("p1").innerHTMl=("addition is") + (a+b+c);
+}
+</script>
+</body>
+</html>
